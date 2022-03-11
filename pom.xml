@@ -4,7 +4,7 @@
 
 	<groupId>com.reddy</groupId>
 	<artifactId>notepad</artifactId>
-	<version>1.0.1-SNAPSHOT</version>
+	<version>1.0.1</version>
 	<packaging>jar</packaging>
 
 	<name>notepad</name>
@@ -30,7 +30,7 @@
 		<connection>scm:git:https://github.com/alphacentrino/demonotepad.git</connection>
 		<developerConnection>scm:git:https://github.com/alphacentrino/demonotepad.git</developerConnection>
 		<url>scm:git:https://github.com/alphacentrino/demonotepad.git</url>
-		<tag>HEAD</tag>
+		<tag>notepad-1.0.1</tag>
 	</scm>
 
 	<distributionManagement>
