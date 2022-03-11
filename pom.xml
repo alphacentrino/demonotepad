@@ -38,13 +38,13 @@
 		
 		<repository>
 			<id>central</id>
-			<name>artifactory-releases</name>
-			<url>http://artifactory-service:8081/artifactory/libs-release-local</url>
+			<name>nexus-releases</name>
+			<url>http://localhost:8081/repository/maven-releases/</url>
 		</repository>
 		<snapshotRepository>
 			<id>snapshots</id>
-			<name>artifactory-snapshots</name>
-			<url>http://artifactory-service:8081/artifactory/libs-snapshot-local</url>
+			<name>nexus-snapshots</name>
+			<url>http://localhost:8081/repository/maven-snapshots/</url>
 		</snapshotRepository>
 	
 
