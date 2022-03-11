@@ -5,7 +5,7 @@ spring.profiles.active: dev
 spring:
   profiles: dev
   datasource:
-    url: jdbc:mysql://localhost:3306/notepad
+    url: jdbc:mysql://localhost:3306/notepad?useSSL=false
     username: root
     password: root
     testWhileIdle: true
@@ -33,7 +33,7 @@ test_mysql_host: ${ENV_TEST_MYSQL_HOST:localhost}
 spring:
   profiles: test
   datasource:
-    url: jdbc:mysql://${test_mysql_host}:3306/notepad
+    url: jdbc:mysql://${test_mysql_host}:3306/notepad?useSSL=false
     username: root
     password: root
     testWhileIdle: true
